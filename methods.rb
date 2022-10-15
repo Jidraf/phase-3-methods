@@ -1,24 +1,27 @@
 # Your code here!
+#with no arguments
 def greet_programmer
     puts "Hello, programmer!"
 end
-greet_programmer 
+greet_programmer
 
+#with one argument
 def greet name
-    puts "Hello, #{name}!"  
+    puts "Hello #{name}!"
 end
 
-def greet_with_default(default="Naureen")
+#with a default argument
+def greet_with_default(default="Jidraph")
     puts "Hello, #{default}!"
     puts "Hello, programmer!"
 end
-greet_with_default 
+greet_with_default
 
+#returns sum of two numbers
 def add (num1, num2)
     return num1 + num2
 end
-
-puts add(1,2)
+puts add(2,3)
 
 def halve(number)
     if number.class != Integer
@@ -27,11 +30,6 @@ def halve(number)
 
     number / 2
 end
-
-
-
-
-
 
 
 
